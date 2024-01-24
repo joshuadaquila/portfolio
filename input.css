@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.project-title{
+  font-family: Anton;
+  
+}
+.ua-pic{
+  height: 230px;
+  width: auto;
+}
+.hover-effect:hover{
+  transform: scale(1.2);
+  transition: transform 0.3s ease-in-out;
+  border-color: white;
+}
+.gradient-text {
+  background: linear-gradient(45deg, #908bf0, #64a0ff, #35fff8 ); /* Define your gradient colors and direction */
+  -webkit-background-clip: text; /* For older webkit-based browsers */
+  background-clip: text; /* Apply the gradient as the text color */
+  color: transparent; /* Make the text color transparent */
+}
+section:active{
+  padding-top: 32px;
+}
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animate-gradient {
+  animation: gradientAnimation 10s linear infinite;
+  background-size: 250% auto;
+}
+@media(max-width: 700px){
+  .show-menu{
+    display: block;
+  }
+  .hide-nav{
+    display:none;
+  }
+}
+@media(max-width: 600px){
+  .two-column{
+    flex-direction: column;
+  }
+}
+@media(max-width: 600px){
+  .remove-margin{
+    margin: 0;
+  }
+}

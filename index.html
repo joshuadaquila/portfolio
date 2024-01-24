@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JD Personal Website</title>
+    <link href="output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&family=Staatliches&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  </head>
+  <body class="bg-slate-900 ">
+    <header id="header" class="shadow-lg bg-gradient-to-tr from-slate-700 via-slate-800 to-slate-950 to w-full h-28 flex flex-row
+     items-center  border-x-white border-2 rounded-lg fixed 
+    ">
+      <div class="flex flex-1 items-center">
+        <div class="hidden show-menu">
+          <span class="hover:cursor-pointer material-symbols-outlined ml-4 text-white">Menu</span>
+
+        </div>
+        <div class="m-8 w-44 flex flex-col justify-center items-end ">
+          <h1 class="font-[Anton]  text-3xl gradient-text
+          animate-gradient 
+          ">JoshuaDaquila</h1>
+          <p class="text-blue-200 font-[Pacifico]">Personal Website</p>
+        </div>
+      </div>
+      <div class="flex flex-1  items-center justify-around ">
+        <nav class=" uppercase flex flex-row w-full justify-around hide-nav">
+          <a href="#about" class="p-2 rounded-md font-bold text-lg text-white hover:border-2
+          duration-75
+            ">Home</a>
+          <a href="#projects" class="p-2 rounded-md font-bold text-lg text-white hover:border-2
+          duration-75  
+            ">Projects</a>
+          <a href="#education" class="p-2 rounded-md font-bold text-lg text-white hover:border-2
+          duration-75
+            ">Education</a>
+            <a href="#skills" class="p-2  rounded-md font-bold text-lg text-white hover:border-2
+            duration-75
+              ">Skills</a>
+          <a href="#Contact" class="p-2 rounded-md font-bold text-lg text-white hover:border-2
+          duration-75 focus:border-2
+            ">Contact</a>
+        </nav>
+      </div>
+
+    </header>
+    <main class="">
+      <section id="about" class="h-auto mb-6 flex flex-row justify-center items-center pt-32 two-column">
+        <img src="./resources/id.jpg" class="w-52 mr-12 rounded-md remove-margin">
+        <div class="w-80">
+          <h1 class="bg-transparent text-white font-[Pacifico] text-lg">Hi! I am</h1>
+          <hr>
+          <h1 class="font-[Anton] uppercase font-bold text-5xl gradient-text animate-gradient shadow-lg m-4 w-80">Joshua Daquila</h1>
+          <p class="text-white text-xl ">
+            I am an aspiring full-stack developer who passionately wants to dive deeper into the IT industry!<br/><br/> Check me out!
+            </p>
+          <div class="flex flex-col justify-between items-center">
+            <button class="flex border-violet-300 flex-row justify-evenly items-center w-36 h-12 border-2 text-violet-300 font-[Anton] mt-2 rounded-sm hover:bg-violet-300 hover:text-black">
+              <span class="material-symbols-outlined ">
+                download
+                </span>
+              Download CV</button>
+          </div>
+          
+        </div>
+
+      </section>
+      <hr>
+      <section id="projects" class="flex flex-col">
+        <h1 class="font-[Anton] text-slate-900 text-4xl gradient-text ml-5 mt-4 p-4 rounded-md">Projects</h1>
+        <div> 
+          <div class="p-4 text-center rounded-md border-violet-300 border-2 h-2 flex flex-col justify-center items-center w-3/12 m-4">
+            <h3 class="project-title font-[Anton] text-white text-lg">College of Computer Studies Web-Based Class Scheduling System</h3>
+            <div class="flex flex-row items-center">
+              <img src="resources/webclasssys/1.png" class="h-2" width="700px">
+              <div class="flex flex-col ml-4">
+                <h5 class="font-bold text-white">Technology Used:</h5><br>
+                <ul class="text-end text-white">
+                  <li>Php</li>
+                  <li>HTML</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                  <li>MySQL</li>
+                </ul>
+                <a href="proj1.html"><button class="rounded-sm border-white border h-6 font-[Anton] text-white w-full">View More</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-4 text-center rounded-md border-violet-300 border-2 h-2 flex flex-col justify-center items-center w-3/12 m-4">
+            <h3 class="project-title font-[Anton] text-white text-lg">College of Computer Studies Web-Based Library System</h3>
+            <div class="flex flex-row items-center">
+              <img src="resources/weblibsys/1.png" class="" width="700px">
+              <div class="flex flex-col ml-4">
+                <h5 class="font-bold text-white">Technology Used:</h5><br>
+                <ul class="text-end text-white">
+                  <li>Php</li>
+                  <li>HTML</li>
+                  <li>JavaScript</li>
+                  <li>CSS</li>
+                  <li>MySQL</li>
+                </ul>
+                <a href="proj2.html"><button class="rounded-sm border-white border h-6 font-[Anton] text-white w-full">View More</button></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="p-4 text-center rounded-md border-violet-300 border-2 h-2 flex flex-col justify-center items-center w-3/12 m-4">
+            <h3 class="project-title font-[Anton] text-white text-lg">College of Computer Studies Desktop Library System</h3>
+            <div class="flex flex-row items-center">
+              <img src="resources/crud/1.png" class="" width="700px">
+              <div class="flex flex-col ml-4">
+                <h5 class="font-bold text-white">Technology Used:</h5><br>
+                <ul class="text-end text-white">
+                  <li>MS Visual Studio</li>
+                  <li>WinForms</li>
+                  <li>C#</li>
+                  <li>.NET Framework</li>
+                  <li>MySQL</li>
+                </ul>
+                <a href="proj3.html"><button class="rounded-sm border-white border h-6 font-[Anton] text-white w-full">View More</button></a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <hr>
+      <section id="skills" class=" p-5 flex flex-col">
+        <h1 class="font-[Anton] text-slate-900 text-4xl gradient-text ml-5 mt-4 p-4 rounded-md">SKILLS</h1>
+        <div class="text-white text-lg w-full flex flex-col justify-center items-center mb-16">
+          <ul class="grid grid-cols-7 gap-10 justify-center items-center">
+            <li class="hover-effect p-4 text-center rounded-md border-violet-300 border-2">HTML<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" /></li>
+            <li class="hover-effect p-4 text-center rounded-md border-violet-300 border-2">CSS<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" /></li>
+            <li class="hover-effect p-4 text-center rounded-md border-violet-300 border-2">JavaScript<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" /></li>
+            <li class="hover-effect p-4 text-center rounded-md border-violet-300 border-2">ReactJS<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /></li>
+            <li class="hover-effect p-4 text-center rounded-md border-violet-300 border-2">TailwindCSS<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" /></li>
+            <li class="hover-effect p-4 text-center rounded-md border-violet-300 border-2">NodeJS<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /></li>
+            <li class="hover-effect p-4 text-center rounded-md border-violet-300 border-2">MySQL<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" /></li>
+          </ul>
+        </div>
+      </section>
+      <hr>
+      <section id="education" class="flex flex-col ml-5 p-4 text-white">
+        <h1 class="font-[Anton] text-slate-900 text-4xl gradient-text mt-4  rounded-md">Education</h1>
+        <div class="flex flex-row justify-center items-center">
+          <div>
+            <img src="./resources/ualogo.jpg" class="ua-pic m-3 rounded-full">
+          </div>
+  
+          <div>
+            <h1 class="text-4xl">Bachelor of Science in Computer Science</h1>
+            <p class="text-3xl">Major in Intelligent Systems</p>
+            <h1 class="text-lg">University of Antique</h1>
+            <p class="text-lg">Sibalom, Antique</p>
+          </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center">
+          <p class="text-3xl mb-2">Programming (Java) NC III</p>
+          <div class="flex flex-row justify-center items-center">
+            <img src="./resources/cert1.jpg" width="800px" class="m-4">
+            <ul class="m-2">
+              <li>•Perform object-oriented analysis and design in Java technology</li>
+              <li>•Create and fine-tune Java technology applications using object-oriented programming concept</li> 
+            </ul>
+          </div>
+
+
+
+        </div>
+
+
+      </section>
+      <hr>
+      <section id="Contact" class="flex flex-col h-96">
+        <h1 class="font-[Anton] text-slate-900 text-4xl gradient-text ml-5 mt-4 p-4 rounded-md">Contact</h1>
+        <div class="flex flex-col">
+          <div class="flex flex-row justify-center items-end">
+            <span class="material-symbols-outlined text-white mr-2">
+              mail
+              </span><a href="https://www.gmail.com"><h3 class="font-bold text-xl ml-1 text-white">joshua.daquila@antiquespride.edu.ph</h3></a> 
+          </div>
+          <div class="flex flex-row justify-center items-end">
+            <span class="material-symbols-outlined text-white mr-2">
+              call
+              </span><h3 class="font-bold text-xl ml-1 text-white">09357901126</h3>
+          </div>
+          
+        </div>
+      </section> 
+      <hr>
+    </main>
+    <footer class="bg-slate-200 h-44 flex flex-col justify-center items-center">
+      <h3>This page is under development.</h3>
+      <p>© 2023</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
